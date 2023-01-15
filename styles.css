@@ -1,0 +1,81 @@
+/* common styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans&display=swap');
+*{
+    margin:0;
+}
+.section-title{
+    font-size: 45px;
+    color: #131313;
+    line-height:75px;
+}
+.section-info{
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+/* Styles for nav and banners */
+header{
+    background-color:  rgba(255, 144, 14, 0.1);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:50px 240px 0 228px;
+    margin-bottom: 102px;
+}
+nav ul {
+    display: flex;
+    gap:60px;
+}
+nav ul li{
+    list-style-type: none;
+}
+
+.banner{
+    text-align: center;
+}
+.banner-title{
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+
+.btn-explore{
+    background-color:#FF900E;
+    color:#ffff;
+    padding:21px 24px 20px 25px;
+    border-style:none;
+    border-radius: 5px;
+}
+.banner div{
+    margin-bottom:50px;
+}
+.banner img{
+    padding: 0 240px 45px 240px;
+}
+/* Styles for features */
+    .features{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:73px;
+        margin:85px 301px 130px 301px;
+        
+
+    }
+    .images{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:10px;
+    }
+    .images img{
+        width: 225px;
+        height: 225px;
+    }
+    .sl-text{
+        color:#727272
+    }
+    .or-text{
+        color: #FF900E;
+    }
